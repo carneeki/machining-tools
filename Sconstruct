@@ -1,0 +1,7 @@
+env = Environment()
+env.Replace(CC='cc')
+env.Replace(CXX='c++')
+env.Replace(CCFLAGS='-g')
+env.Program('mandrel',['mandrel.c'])
+env.Program('divide',['divide.c'])
+Install("out")
