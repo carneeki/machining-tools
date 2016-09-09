@@ -7,7 +7,7 @@ Usage:
 
 ```./divide <divisions> <ratio> [hole-pattern-file]```
 
-<divisions> is the number of divisions you wish to divide, such as 30 if you
+`<divisions>` is the number of divisions you wish to divide, such as 30 if you
 wanted to cut a 30T gear, or 6 if you wanted to mill a hex shape on some round
 material.
 
