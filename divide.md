@@ -11,11 +11,11 @@ Usage:
 wanted to cut a 30T gear, or 6 if you wanted to mill a hex shape on some round
 material.
 
-<ratio> is the reduction ratio, typically this is '40', '60' or '90', but some
+`<ratio>` is the reduction ratio, typically this is '40', '60' or '90', but some
 low cost rotary tables are '36'.
 
-[hole-pattern-file] is an optional input to provide a file containing a list of
-hole patterns available. They are specified as just a list of numbers. If the
+`[hole-pattern-file]` is an optional input to provide a file containing a list
+of hole patterns available. They are specified as just a list of numbers. If the
 file is not specified, the program looks for 'divide-holes.txt'. Common plates
 for Browne and Sharpe and Cincinnati dividing heads have been included. These
 files can be edited or new ones created if you make your own plates.
